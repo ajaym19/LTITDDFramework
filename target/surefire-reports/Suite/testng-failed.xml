@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.lti.testcases.LoginPageTest">
+        <methods>
+          <include name="validateLoginTest"/>
+          <include name="closeSetup"/>
+          <include name="reportConfiguration"/>
+          <include name="browserSetup"/>
+          <include name="publishReport"/>
+        </methods>
+      </class> <!-- com.lti.testcases.LoginPageTest -->
+      <class name="com.lti.testcases.DashboardPageTest">
+        <methods>
+          <include name="validateTimeAtWorkSectionTest"/>
+          <include name="browserSetup"/>
+          <include name="validateDashboadLabelTest"/>
+          <include name="closeSetup"/>
+        </methods>
+      </class> <!-- com.lti.testcases.DashboardPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
