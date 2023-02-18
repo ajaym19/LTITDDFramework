@@ -1,0 +1,46 @@
+Framework Notes
+
+used as a default setup
+
+Type:
+1. TDD: Test Driven Development Framework
+2. BDD: Behavior Driven Development Framework
+
+Design Pattern:
+POM: Page Object Model (every page will have corresponding class)
+SingleTon: 
+
+Integrations:
+Java - PL
+Selenium - Automation Tool
+TestNG - Testing tool
+APachePOI - excel and data provider
+Properties - to to get data
+OOPS - principles
+Maven - Build tool
+Jenkins - CICD tool
+Git/Github - remote repository/version management
+
+Project Structure:
+src/main/java: contain your actual Java and Selenium code
+src/main/resources: contain the resources for the main code
+src/test/java: contain the test cases and TestNG code
+src/test/resources: test data files
+
+Use Assertions:
+Assert.assertEquals(act, exp)
+Assert.assertrue(variable)
+
+Execution:
+1. Individual TestNG class
+2. TestNG XML file
+3. Maven
+4. Jenkins
+
+
+
+
+
+
+
+
