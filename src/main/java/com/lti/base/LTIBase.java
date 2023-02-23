@@ -54,6 +54,10 @@ public class LTIBase {
 		String reportPath = "./ExtentReports";
 		extent = new ExtentReports();
 		reporter = new ExtentSparkReporter(reportPath);
+		reporter.config().setDocumentTitle("Automation Test Results");
+		reporter.config().setReportName("LTI Report");
+		extent.setSystemInfo("Environment", "QA");
+		extent.setSystemInfo("Tester", "Ajay");
 		extent.attachReporter(reporter);
 	}
 	
